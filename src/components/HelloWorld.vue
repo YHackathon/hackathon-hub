@@ -38,7 +38,7 @@
           name: 'YDiscover',
           link : 'https://main.dmnepnuwu4hll.amplifyapp.com/',
           description: 'Création d\'un site de recommandations d\'artistes et génération de fond d\'écran en fonction des albums les plus streamés.',
-          imageSrc: 'src/assets/bg_card/project_1.PNG',
+          imageSrc: 'https://i.ibb.co/MVHQbBW/project-1.png',
           technologies: ['Web'],
         },
         {
@@ -54,7 +54,7 @@
           name: 'YLocoTunes',
           link : 'https://bechamelloww.github.io/vitrine-YLocoTunes/#mvpH',
           description: 'Application web de découverte d\'artistes locaux et exploration des événements musicaux locaux.',
-          imageSrc: 'src/assets/bg_card/project_3.PNG',
+          imageSrc: 'https://i.ibb.co/fMfqhpq/project-3.png',
           technologies: ['Web'],
         },
         {
@@ -62,7 +62,7 @@
           name: 'SoundSphere',
           link : 'https://soundsphere.gcristini.fr/',
           description: 'SoundSphere est une application mobile qui permet de créer une file d\'attente musicale collaborative.',
-          imageSrc: 'src/assets/bg_card/project_4.PNG',
+          imageSrc: 'https://i.ibb.co/Tk1wNP0/project-4.png',
           technologies: ['Mobile', 'Multijoueur'],
         },
         {
@@ -70,7 +70,7 @@
           name: 'Swopy',
           link : 'https://vitrine.swopy.fun/',
           description: 'Application web qui permet de créer une file d\'attente musicale entre amis avec un système de vote par popularité.',
-          imageSrc: 'src/assets/bg_card/project_5.PNG',
+          imageSrc: 'https://i.ibb.co/fqmB4G2/project-5.png',
           technologies: ['Web', 'Multijoueur'],
         },
         {
@@ -78,7 +78,7 @@
           name: 'YQuizz',
           link : 'https://hackathon-23-24-equipe6.github.io/vitrine//',
           description: 'Application de quizz en ligne permettant de tester ses connaissances sur les différents genres musicaux.',
-          imageSrc: 'src/assets/bg_card/project_6.PNG',
+          imageSrc: 'https://i.ibb.co/Y2z627m/project-6.png',
           technologies: ['Web', 'Jeu en ligne'],
         },
         {
@@ -86,7 +86,7 @@
           name: 'Harmonifund',
           link : 'https://vitrine-harmonifund.netlify.app/',
           description: 'Participez aux campagnes de financement participatif pour soutenir vos artistes préférés !',
-          imageSrc: 'src/assets/bg_card/project_7.PNG',
+          imageSrc: 'https://i.ibb.co/3f3FWck/project-7.png',
           technologies: ['Web'],
         },
         {
@@ -94,7 +94,7 @@
           name: 'QuizTune',
           link : 'https://dancing-crumble-390602.netlify.app/',
           description: 'Plateforme de quizz en temps réel en multijoueurs sous forme d\'extraits musicaux ou de lyrics à reconnaître.',
-          imageSrc: 'src/assets/bg_card/project_8.PNG',
+          imageSrc: 'https://i.ibb.co/1R1r0hb/project-8.png',
           technologies: ['Web', 'Jeu en ligne', 'Multijoueur'],
         },
         {
@@ -102,7 +102,7 @@
           name: 'OST-Museum',
           link : 'https://ost-museum-web.vercel.app/',
           description: 'Musée interactif où vous pourrez écouter les différents soundtracks de films, jeux vidéo et bien d\'autres encore !',
-          imageSrc: 'src/assets/bg_card/project_9.PNG',
+          imageSrc: 'https://i.ibb.co/0Vbb7cs/project-9.png',
           technologies: ['Jeu vidéo'],
         },
         {
@@ -110,7 +110,7 @@
           name: 'SonoSync',
           link : 'https://thomastiraboschi.github.io/Site-Vitrine-SonoSync/',
           description: 'Incarnez un agent d\'entretien dans un labyrinthe de défis et d\'énigmes rythmé par la musique diffusée par un poste radio aux pouvoirs suprenants.',
-          imageSrc: 'src/assets/bg_card/project_10.PNG',
+          imageSrc: 'https://i.ibb.co/CM6H7wR/project-10.png',
           technologies: ['Jeu vidéo'],
         },
         {
@@ -118,7 +118,7 @@
           name: 'BeatTheBeat',
           link : 'https://hackathon-btb-vitrine.netlify.app/',
           description: 'Testez vos connaissances à travers des énigmes sonores, défiez vos amis en temps réel et découvrez de nouveaux genres et artistes.',
-          imageSrc: 'src/assets/bg_card/project_11.PNG',
+          imageSrc: 'https://i.ibb.co/gzcBZfZ/project-11.png',
           technologies: ['Web', 'Multijoueur', 'Jeu en ligne'],
         },
         {
@@ -126,7 +126,7 @@
           name: 'Solf\'ez',
           link : 'https://annegnoemie.github.io/solfez/',
           description: 'Vous avez toujours voulu apprendre à jouer au piano mais ne savez pas par où commencer ? Vous voulez améliorer votre oreille musicale ?',
-          imageSrc: 'src/assets/bg_card/project_12.PNG',
+          imageSrc: 'https://i.ibb.co/jVZtFRk/project-12.png',
           technologies: ['Web'],
         },
         {
@@ -150,7 +150,7 @@
           name: 'YMusic',
           link : 'https://ymusic2023.netlify.app/',
           description: 'Blind test en ligne sous la forme d\'un pendu. Tapez les lettres pour découvrir le son !',
-          imageSrc: 'src/assets/bg_card/project_15.PNG',
+          imageSrc: 'https://i.ibb.co/Vtk9rj6/project-15.png',
           technologies: ['Web','Jeu en ligne'],
         },
         {
@@ -158,7 +158,7 @@
           name: 'YError',
           link : 'https://ynov-hackathon-groupe-16.netlify.app/',
           description: 'Extension VS Code musicale de détection d\'erreurs de syntaxe sur différents langages.',
-          imageSrc: 'src/assets/bg_card/project_16.PNG',
+          imageSrc: 'https://i.ibb.co/X5HJPHT/project-16.png',
           technologies: ['Logiciel'],
         },
         {
@@ -166,7 +166,7 @@
           name: 'MusiClash',
           link : 'https://34.71.240.139/',
           description: 'Application web de blind test en multijoueur local.',
-          imageSrc: 'src/assets/bg_card/project_17.PNG',
+          imageSrc: 'https://i.ibb.co/8XFGNxY/project-17.png',
           technologies: ['Web', 'Jeu en ligne', 'Multijoueur'],
         },
         {
@@ -174,7 +174,7 @@
           name: 'Beathoven',
           link : 'https://beathoven-bot.netlify.app/',
           description: 'Bot Discord vous permettant de transformer vos messages en bande sonore.',
-          imageSrc: 'src/assets/bg_card/project_18.PNG',
+          imageSrc: 'https://i.ibb.co/ynxbHH5/project-18.png',
           technologies: ['Logiciel'],
         },
         {
@@ -182,7 +182,7 @@
           name: 'Harmon IA',
           link : 'https://kaleidoscopic-valkyrie-fb1af0.netlify.app/',
           description: 'Application web d\'anlyse de fichiers musicaux et de retranscription de paroles de musique.',
-          imageSrc: 'src/assets/bg_card/project_19.PNG',
+          imageSrc: 'https://i.ibb.co/f06rV8P/project-19.png',
           technologies: ['Web'],
         },
       ],
