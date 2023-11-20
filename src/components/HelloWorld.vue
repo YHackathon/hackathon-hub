@@ -1,62 +1,21 @@
 <template>
-   <v-container id="projects" class="listingProject">
-    <v-app>
-    <v-app-bar app color="indigo" dark>
-      <v-toolbar-title>Faux SoundPlayer</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <!-- Faux SoundPlayer Controls -->
-      <v-btn icon>
-        <v-icon>mdi-skip-previous</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-play</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-pause</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-skip-next</v-icon>
-      </v-btn>
-
-      <v-slider
-        class="mx-4"
-        v-model="soundLevel"
-        :max="100"
-        step="1"
-        hide-details
-        small
-      ></v-slider>
-
-      <v-btn icon @click="toggleMute">
-        <v-icon>{{ isMuted ? 'mdi-volume-off' : 'mdi-volume-high' }}</v-icon>
-      </v-btn>
-    </v-app-bar>
-  </v-app>
-
-
-
-
-        <v-card class="my-4">
-            <v-card-title>Filtre selon le type de projet qui t'intéresse !</v-card-title>
+      <v-container>
+        <v-card class="my-4 bg-primary">
+            <v-card-title class="filter">Filtre selon le type de projet qui t'intéresse !</v-card-title>
             <v-card-text>
-              <v-chip class="bg-deepblue" v-for="(tech, index) in filters" :key="index" @click="toggleFilter(tech)">
+              <v-chip class="bg-accent" v-for="(tech, index) in filters" :key="index" @click="toggleFilter(tech)">
                 {{ tech }}
               </v-chip>
             </v-card-text>
           </v-card>
       <v-row>
         <v-col v-for="project in filteredProjects" :key="project.id" cols="12" md="4">
-          <v-card class="my-4 pa-2">
+          <v-card class="my-4 pa-2 bg-secondary">
             <v-img :src="project.imageSrc" height="200px"></v-img>
-            <v-card-title class="my-1">{{ project.name }}</v-card-title>
+            <v-card-title class="my-1 primary">{{ project.name }}</v-card-title>
             <v-card-text>{{ project.description }}</v-card-text>
-            <v-chip v-for="tech in project.technologies" :key="tech" class='bg-mediumblue mr-4'>{{ tech }}</v-chip>
-            <v-btn width="100%" class="mt-3" color="deepblue" :href="project.link">
+            <v-chip v-for="tech in project.technologies" :key="tech" class='bg-accent mr-4'>{{ tech }}</v-chip>
+            <v-btn width="100%" class="mt-3" color="primary" :href="project.link">
             Découvrir le projet
           </v-btn>
 
@@ -267,4 +226,5 @@
 {
  font-family: 'Montserrat', sans-serif !important;
 }
+
 </style>
